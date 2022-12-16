@@ -1,0 +1,252 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+  header  {
+    border: 1px solid red;
+    background-color:#00bfff;
+  }
+
+  
+
+  main  {
+    border: 1px solid red
+  }
+
+  footer  {
+    border: 1px solid red
+  }
+
+  body {
+    min-height: 100vh
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+  .nav-list {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+  }
+
+  .nav-link {
+    text-decoration: none;
+    transition: .3s;
+      }
+
+      .nav-link:hover {
+        color: red;
+      }
+
+      .foto {
+        height: 400px;
+      }
+
+      .name {
+        font-size: 50px;
+        color: rgb(89, 87, 87);
+      }
+
+      .proffesion {
+        font-size: 40px;
+        color: rgb(89, 87, 87);
+      }
+
+      .left {
+        width: 600px;
+      }
+
+      .left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .left {
+        text-align: center
+      }
+
+      .abc {
+        background-color: #00bfff;
+        width: inherit;
+      }
+
+      
+
+      .left {
+        background-color: rgb(89, 87, 87);
+      }
+
+      .contacts {
+        color: white;
+      }
+
+      .contact__image {
+        display: flex;
+      }
+
+      .image__contact {
+        height: 40px;
+        margin-top: 25px;
+      }
+
+
+      .contact__items {
+        list-style: none;
+      }
+
+      .contacts__capt {
+        text-align: left;
+      }
+
+      .contact__items {
+        text-align: left;
+      }
+
+      .contacts__capt {
+        font-size: 45px;
+        font-variant: font-variant: all-petite-caps;
+        margin: 15px;
+        text-decoration: underline;
+      }
+
+      .contact {
+        font-size: 35px;
+        color: white;
+      }
+
+      .contact-i {
+        font-size: 25px;
+        color: rgb(159, 155, 155);
+        font-style: oblique;
+        font-weight: bold;
+        
+      }
+
+
+
+      .sides {
+        display: flex;
+      }
+
+      .education {
+        color: white;
+      }
+
+      .education__items {
+        list-style: none;
+      }
+
+      .education__capt {
+        text-align: center;
+        font-size: 45px;
+        text-decoration: underline;
+      }
+
+      .years {
+        font-size: 35px;
+        text-align: center;
+      }
+
+      .univercity {
+        font-size: 25px;
+        font-style: oblique;
+        color: rgb(159, 155, 155);
+        font-weight: bold;
+      }
+
+
+
+
+
+
+      .languages {
+        color: white;
+      }
+      
+      .language__items {
+        list-style: none;
+      }
+
+      .language__capt {
+        font-size: 45px;
+        text-decoration: underline;
+      }
+
+      .eng {
+        font-size: 35px;
+      }
+
+      .aboutme__capt {
+        font-size: 45px;
+        color: rgb(89, 87, 87);
+        margin-left: 50px;
+      }
+
+      .aboutme-i {
+        font-size: 40px;
+      }
+
+      .aboutme__items {
+        list-style: none;
+      }
+
+      .works__capt {
+        font-size: 45px;
+        color: rgb(89, 87, 87);
+        margin-left: 50px;
+      }
+
+      .works__item {
+        font-size: 35px;
+
+      }
+
+      .works__items {
+        list-style: none;
+      }
+
+      .skill__capt {
+        font-size: 45px;
+        color: rgb(89, 87, 87);
+        margin-left: 50px;
+      }
+
+      .skill__item {
+        font-size: 35px;
+      }
+
+      .skill__items {
+        list-style: none;
+      }
+
+      .codes__capt {
+        font-size: 45px;
+        color: rgb(89, 87, 87);
+        margin-left: 50px;
+      }
+
+      .codes__items {
+        list-style: none;
+        font-size: 35px;
+      }
+
