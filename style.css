@@ -2,23 +2,22 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+section {
+  width: 500px;
+}
+
 * {
     box-sizing: border-box;
+    /* outline: 1px solid red */
   }
-
-  header  {
-    border: 1px solid red;
-    background-color:#00bfff;
-  }
-
   
 
   main  {
-    border: 1px solid red
+    /* border: 1px solid red */
   }
 
   footer  {
-    border: 1px solid red
+    /* border: 1px solid red */
   }
 
   body {
@@ -37,8 +36,12 @@ body {
   }
 
   .container {
-    max-width: 1440px;
+    max-width: 1200px;
     margin: 0 auto;
+  }
+
+  .nav {
+    background-color: #00bfff;
   }
 
   .nav-list {
@@ -46,17 +49,26 @@ body {
     justify-content: space-evenly;
     align-items: center;
     list-style: none;
+    margin: 0;
+    height: 50px;
   }
 
   .nav-link {
     text-decoration: none;
     transition: .3s;
-      }
+    padding: 5px;
+    color: black;
+    font-size: 20px;
+
+  }
 
       .nav-link:hover {
-        color: red;
+        color: white;
+        border: white 2px solid;
+        border-radius: 20px;
       }
 
+     
       .foto {
         height: 400px;
       }
@@ -96,9 +108,7 @@ body {
         background-color: rgb(89, 87, 87);
       }
 
-      .contacts {
-        color: white;
-      }
+      
 
       .contact__image {
         display: flex;
@@ -110,12 +120,22 @@ body {
       }
 
 
+      .contacts {
+        margin-left: 100px;
+        width: 400px;
+      }
+      
       .contact__items {
         list-style: none;
       }
 
-      .contacts__capt {
+      .caption {
         text-align: left;
+        font-size: 35px;
+        border-bottom: 2px white solid;
+        width: fit-content;
+        color: white;
+        margin-left: 40px;
       }
 
       .contact__items {
@@ -124,7 +144,7 @@ body {
 
       .contacts__capt {
         font-size: 45px;
-        font-variant: font-variant: all-petite-caps;
+        font-variant: all-petite-caps;
         margin: 15px;
         text-decoration: underline;
       }
@@ -139,52 +159,23 @@ body {
         color: rgb(159, 155, 155);
         font-style: oblique;
         font-weight: bold;
-        
       }
-
-
 
       .sides {
         display: flex;
       }
 
       .education {
-        color: white;
+        margin-left: 2px;
       }
-
-      .education__items {
-        list-style: none;
-      }
-
-      .education__capt {
-        text-align: center;
-        font-size: 45px;
-        text-decoration: underline;
-      }
-
-      .years {
-        font-size: 35px;
-        text-align: center;
-      }
-
-      .univercity {
-        font-size: 25px;
-        font-style: oblique;
-        color: rgb(159, 155, 155);
-        font-weight: bold;
-      }
-
-
-
-
-
-
+      
       .languages {
         color: white;
       }
       
       .language__items {
         list-style: none;
+        margin: 0px;
       }
 
       .language__capt {
@@ -192,14 +183,26 @@ body {
         text-decoration: underline;
       }
 
+      .language__item {
+        display: flex;
+        align-items: center;
+        gap: 60px;
+      }
+
       .eng {
         font-size: 35px;
+        margin-left: 70px;
       }
 
       .aboutme__capt {
         font-size: 45px;
         color: rgb(89, 87, 87);
         margin-left: 50px;
+      }
+
+      .aboutme, .works, .skill, .codes {
+        width: auto;
+        max-width: 570px;
       }
 
       .aboutme-i {
@@ -210,6 +213,7 @@ body {
         list-style: none;
       }
 
+      
       .works__capt {
         font-size: 45px;
         color: rgb(89, 87, 87);
@@ -225,6 +229,10 @@ body {
         list-style: none;
       }
 
+      .skill {
+        width: 750px;
+      }
+      
       .skill__capt {
         font-size: 45px;
         color: rgb(89, 87, 87);
@@ -245,8 +253,45 @@ body {
         margin-left: 50px;
       }
 
+      .codes {
+        width: 750px;
+      }
+      
       .codes__items {
         list-style: none;
         font-size: 35px;
       }
 
+      .code {
+        background-color: rgb(159 155 155 / 50%);
+        border-radius: 10px;
+      }
+
+      .first-line {
+        width: 100px;
+        background-color: white;
+        height: 10px;
+        border-radius: 10px;
+      }
+
+      .second-line {
+        width: 40px;
+        background-color: #00bfff;
+        height: 10px;
+      }
+
+      .fotoprof, .logorschool {
+        height: 40px;
+      }
+
+      .box_container {
+        width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+        gap: 300px;
+        padding: 10px;
+        background-color: rgb(89, 87, 87);
+      }

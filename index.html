@@ -17,10 +17,10 @@
                 <ul class="nav-list">
                   <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
                   <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
-                  <li class="nav-item"><a href="#about me" class="nav-link">About me</a></li>
+                  <li class="nav-item"><a href="#about-me" class="nav-link">About me</a></li>
                   <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
                   <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
-                  <li class="nav-item"><a href="#work experience" class="nav-link">Work Experience</a></li>
+                  <li class="nav-item"><a href="#work-experience" class="nav-link">Work Experience</a></li>
                   <li class="nav-item"><a href="#languages" class="nav-link">Languages</a>
                 </li>
                 </ul>
@@ -37,8 +37,8 @@
                     </section>
 
                     <section class="contacts">
-                        <i class="fa-solid fa-user"></i>
-                        <h2 class="contacts__capt">Contact</h2>
+                        <a id="contacts"></a>
+                        <h2 class="caption">Contact</h2>
                         <ul class="contact__items">
                             <li class="contact__item">
                                 <p class="contact">Phone</p>
@@ -56,24 +56,31 @@
                         </section>
 
                         <section class="education">
-                            <h2 class="education__capt">Education Master's Dergee</h2>
-                            <ul class="education__items">
-                                <li class="education__item">
-                                    <p class="years">2012-2016 Institute of Aircraft Engineering and Transport</p>
-                                    <p class="univercity">Irkutsk State Technical University</p>
+                            <a id="education"></a>
+                            <h2 class="caption">Education Master's Dergee</h2>
+                            <ul class="contact__items">
+                                <li class="contact__item">
+                                    <p class="contact">2012-2016 Institute of Aircraft Engineering and Transport</p>
+                                    <p class="contact-i">Irkutsk State Technical University</p>
                                 </li>
                                 <li class="education__item">
-                                    <p class="years">2016-2018 Faculty of Energy</p>
-                                    <p class="univercity">Irkutsk State Technical University</p>
+                                    <p class="contact">2016-2018 Faculty of Energy</p>
+                                    <p class="contact-i">Irkutsk State Technical University</p>
                                 </li>
                             </ul>
                             </section>
 
                             <section class="languages">
-                                <h2 class="language__capt">Language</h2>
+                                <a id="languages"></a>
+                                <h2 class="caption">Language</h2>
                                 <ul class="language__items">
                                     <li class="language__item">
                                         <p class="eng">English</p>
+                                        <div class="first-line">
+                                            <div class="second-line">
+
+                                            </div>
+                                        </div>
                                     </li>
                                     
                                 </ul>
@@ -83,6 +90,7 @@
 
             <div class="right">
             <section class="aboutme">
+                <a id="about-me"></a>
                 <h2 class="aboutme__capt">About me</h2>
                 <ul class="aboutme__items">
                     <li class="aboutme__item">
@@ -95,6 +103,7 @@
             </section>
 
                         <section class="works">
+                            <a id="work-experience"></a>
                             <h2 class="works__capt">Work experience</h2>
                             <ul class="works__items">
                                 <li class="works__item">
@@ -112,6 +121,7 @@
                         </section>
 
                         <section class="skill">
+                            <a id="skills"></a>
                             <h2 class="skill__capt">Skills</h2>
                             <ul class="skill__items">
                                 <li class="skill__item">
@@ -123,19 +133,18 @@
                         </section>
 
                         <section class="codes">
+                            <a id="code"></a>
                             <h2 class="codes__capt">Code Example</h2>
                             <ul class="codes__items">
                                 <li class="codes__item">
                                     <p class="codes__name">Java Script</p>
+                                    <pre class="code">
+function greet(){
+    return "hello world!";
+  }
+                                    </pre>
                                 </li>
-                                <code>
-                                    class App {
-                                        public static void main(String[] args) {
-                                            System.out.println("Hello, World!");  
-                                        }
-                                    }
-                                    
-                                </code>
+                              
                             </ul>
                         </section>
                 </div> 
@@ -143,10 +152,16 @@
 
 
     <footer class="footer">
-        <div class="container"></div>
+        <div class="box_container">
+            <a href="https://github.com/AndreyZinovev" target="_blank">
+                <img src="assets\image\logogithub.png" alt="fotoprofile" class="fotoprof">
+            </a>
+
+                <a href="https://rs.school/js/" target="_blank">
+                    <img src="https://rs.school/images/rs_school_js.svg" alt="logo" class="logorschool">
+                </a>
+                <p class="creatby">Made by AndreyZinovev.2022</p>
+        </div>
     </footer>
-    
-        
-    
 </body>
 </html>
